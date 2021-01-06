@@ -20,6 +20,8 @@ steps:
       # sonar.exclusions=**/*.bin
       sonar.projectKey=417402_BIGidea
       sonar.projectName=BIGidea
+
+- task: SonarCloudAnalyze@1
     
 trigger:
 - main
