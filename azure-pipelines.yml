@@ -1,14 +1,3 @@
-# Maven
-# Build your Java project and run tests with Apache Maven.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
-
-trigger:
-- main
-
-pool:
-  vmImage: 'ubuntu-latest'
-
 steps:
 - task: Maven@3
   inputs:
@@ -20,3 +9,20 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: '417402'
+    scannerMode: 'Other'
+    extraProperties: |
+      # Additional properties that will be passed to the scanner,
+      # Put one key=value per line, example:
+      # sonar.exclusions=**/*.bin
+      sonar.projectKey=417402_BIGidea
+      sonar.projectName=BIGidea
+    
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
