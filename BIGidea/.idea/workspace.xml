@@ -5,58 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/AnswerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/GameTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/LobbyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/PlayerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/QuestionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/java/RoundTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/managers/LobbyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/managers/LobbyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Lobby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Round.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Round.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Round.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/ChatServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/WSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/WSServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/ChatMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/ChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/Chatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/WSServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/WSServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/craco.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Game.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Game.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Lobby.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Lobby.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Setup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Setup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/regulars/buttons.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/regulars/inputs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/styled/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bigidea-react/tailwind.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +72,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -212,6 +182,7 @@
       <workItem from="1609847251408" duration="14676000" />
       <workItem from="1609926277220" duration="2599000" />
       <workItem from="1609930124372" duration="3760000" />
+      <workItem from="1609940804684" duration="695000" />
     </task>
     <servers />
   </component>

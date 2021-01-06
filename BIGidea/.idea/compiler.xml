@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="server" />
+        <module name="model" />
         <module name="domain" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="domain" options="-parameters" />
       <module name="interface" options="-parameters" />
       <module name="main" options="-parameters" />
+      <module name="model" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="service" options="-parameters" />
     </option>
