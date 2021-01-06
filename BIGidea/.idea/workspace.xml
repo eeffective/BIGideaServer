@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/AnswerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/GameTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/LobbyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/PlayerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/QuestionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/RoundTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/managers/LobbyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/managers/LobbyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Lobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Round.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/ChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/WSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/WSServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/ChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/ChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/Chatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/WSServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/WSServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/craco.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Game.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Game.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Lobby.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Lobby.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/Setup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/components/Setup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/regulars/buttons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/regulars/inputs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/components/styled/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bigidea-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigidea-react/tailwind.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lcKkN2igGTg65ahQS6Qs99WZXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WSServer">
+    <configuration name="WSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WSServer" />
+      <module name="server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTests.John_Has_Correct_Answer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTests" />
+      <option name="METHOD_NAME" value="John_Has_Correct_Answer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoundTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoundTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoundTests.Question_Get_Generated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoundTests" />
+      <option name="METHOD_NAME" value="Question_Get_Generated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigidea.main.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WSServer" />
+        <item itemvalue="JUnit.GameTests" />
+        <item itemvalue="JUnit.GameTests.John_Has_Correct_Answer" />
+        <item itemvalue="JUnit.RoundTests" />
+        <item itemvalue="JUnit.RoundTests.Question_Get_Generated" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="" />
+      <created>1607891083673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607891083673</updated>
+      <workItem from="1607891084909" duration="5094000" />
+      <workItem from="1607940967766" duration="2903000" />
+      <workItem from="1607944184885" duration="25000" />
+      <workItem from="1607947223997" duration="19000" />
+      <workItem from="1608108279410" duration="10485000" />
+      <workItem from="1608130454500" duration="1009000" />
+      <workItem from="1608197196176" duration="5792000" />
+      <workItem from="1608292034261" duration="20336000" />
+      <workItem from="1608379712738" duration="6626000" />
+      <workItem from="1608550978563" duration="8779000" />
+      <workItem from="1608639905180" duration="12840000" />
+      <workItem from="1608721865938" duration="3095000" />
+      <workItem from="1608756499096" duration="4726000" />
+      <workItem from="1608803838736" duration="15558000" />
+      <workItem from="1608933836288" duration="2235000" />
+      <workItem from="1609014295340" duration="4154000" />
+      <workItem from="1609089413773" duration="2959000" />
+      <workItem from="1609159512525" duration="6054000" />
+      <workItem from="1609192090232" duration="1661000" />
+      <workItem from="1609749527256" duration="1068000" />
+      <workItem from="1609775353690" duration="9075000" />
+      <workItem from="1609841242287" duration="265000" />
+      <workItem from="1609847251408" duration="14676000" />
+      <workItem from="1609926277220" duration="2599000" />
+      <workItem from="1609930124372" duration="3760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/main/src/main/java/com/bigidea/main/web/trivia" />
+    </ignored-roots>
+    <MESSAGE value="//" />
+    <option name="LAST_COMMIT_MESSAGE" value="//" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BIGidea$LobbyTests.ic" NAME="LobbyTests Coverage Results" MODIFIED="1609859155508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$PlayerTests.ic" NAME="PlayerTests Coverage Results" MODIFIED="1609856740592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$GameTests.ic" NAME="GameTests Coverage Results" MODIFIED="1609866076315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$PlayerTests_Player_Can_Set_Name.ic" NAME="PlayerTests.Player_Can_Set_Name Coverage Results" MODIFIED="1609854290194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$QuestionTests.ic" NAME="QuestionTests Coverage Results" MODIFIED="1609861270859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$RoundTests.ic" NAME="RoundTests Coverage Results" MODIFIED="1609862017636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BIGidea$AnswerTests.ic" NAME="AnswerTests Coverage Results" MODIFIED="1609860532148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
