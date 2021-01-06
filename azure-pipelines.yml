@@ -23,6 +23,7 @@ steps:
     sonarQubeRunAnalysis: true
     isJacocoCoverageReportXML: true
     sqMavenPluginVersionChoice: 'latest'
+    codeCoverageToolOption: 'JaCoCo'
     
 trigger:
 - main
@@ -30,4 +31,5 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+
 
