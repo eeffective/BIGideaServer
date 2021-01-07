@@ -6,8 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/Difficulty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/managers/LobbyManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Lobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Round.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/services/QuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/RequestMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/AnswerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/AnswerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/GameTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/GameTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/LobbyTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/LobbyTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/PlayerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/PlayerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/QuestionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/QuestionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/RoundTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/RoundTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +94,17 @@
     <configuration name="WSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WSServer" />
       <module name="server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,6 +199,7 @@
       <workItem from="1609930124372" duration="3760000" />
       <workItem from="1609940804684" duration="2175000" />
       <workItem from="1609967773728" duration="76000" />
+      <workItem from="1610019946159" duration="932000" />
     </task>
     <servers />
   </component>
