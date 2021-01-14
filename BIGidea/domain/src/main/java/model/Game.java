@@ -1,13 +1,10 @@
 package model;
 
-import enums.Category;
 import lombok.Getter;
-import services.QuestionService;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Game {
+public class Game implements IGame {
     @Getter
     private Lobby lobby;
 
@@ -24,8 +21,12 @@ public class Game {
     @Getter
     private Boolean gameOver;
 
+    @Getter
+    private Integer currentQuestionIndex;
+
 
     public Game(Lobby lobby, Settings settings) {
+        this.currentQuestionIndex = 0;
         this.settings = settings;
         this.lobby = lobby;
         this.gameOver = false;
@@ -33,21 +34,35 @@ public class Game {
         this.round = new Round(this.settings);
     }
 
-    public Question getQuestion(int x){
+
+    public Question getNextQuestion() {
         lobby.clearAnswers();
-        if (x <= round.getQuestions().size()){
-            return round.getQuestions().get(x);
+        this.currentQuestionIndex++;
+        return round.getQuestions().get(currentQuestionIndex - 1);
+    }
+
+    public Boolean questionLeft() {
+        if (currentQuestionIndex + 1 <= this.round.getQuestions().size()) {
+            lobby.clearAnswers();
+            return true;
         } else {
-            return null;
+            gameOver = true;
+            lobby.clearAnswers();
+            return false;
         }
     }
 
-    public Boolean correctAnswer(String answer, Integer questionIndex) {
-        return (round.getQuestions().get(questionIndex).getCorrectAnswer().getContent().equals(answer));
+
+    public List<Player> getScoreBoard() {
+        return null;
     }
 
-    public Boolean allAnswered(){
+    public Boolean allAnswered() {
         return this.lobby.allAnswered();
+    }
+
+    public Boolean answerCorrect(String answer, int qIndex) {
+        return (round.getQuestions().get(qIndex - 1).getCorrectAnswer().getContent().equals(answer));
     }
 
 }

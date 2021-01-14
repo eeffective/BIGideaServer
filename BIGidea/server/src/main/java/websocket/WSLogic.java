@@ -30,10 +30,6 @@ public class WSLogic {
         return game;
     }
 
-    public Question getQuestion(RequestMessage in, Game game){
-        return game.getQuestion(in.questionIndex);
-    }
-
     public Boolean answerCorrect(RequestMessage message, Game game){
         Question q = game.getRound().getQuestions().get(message.questionIndex);
         return message.answer.equals(q.getCorrectAnswer().getContent());

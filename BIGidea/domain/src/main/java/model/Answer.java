@@ -12,7 +12,7 @@ public class Answer {
     public Answer(String content, Boolean correct) {
         content = content.replace("&quot;", "\"");
         content = content.replace("&deg;", "°");
-        this.content = content.replaceAll("&#039;", "\'");
+        this.content = content.replace("&#039;", "\'");
         this.correct = correct;
     }
 }

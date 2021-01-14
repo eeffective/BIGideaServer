@@ -6,13 +6,17 @@ import model.Player;
 import model.Question;
 import model.Settings;
 
+import java.util.List;
+
 public class ResponseMessage {
     public MessageType type;
     public Player player;
     public Lobby lobby;
     public Question question;
+    public Integer questionIndex;
     public Settings settings;
     public String error;
+    public List<Player> scoreBoard;
 
     // created player
     public ResponseMessage(MessageType type, Player player){
@@ -33,12 +37,24 @@ public class ResponseMessage {
     }
 
     // started game & answered/next question
+    public ResponseMessage(MessageType type, Question question, Integer questionIndex){
+        this.type = type;
+        this.question = question;
+        this.questionIndex = questionIndex;
+    }
+
     public ResponseMessage(MessageType type, Question question){
         this.type = type;
         this.question = question;
     }
 
     // started game & answered/next question
+    public ResponseMessage(MessageType type, Question question, Player player, Integer questionIndex){
+        this.type = type;
+        this.question = question;
+        this.player = player;
+        this.questionIndex = questionIndex;
+    }
     public ResponseMessage(MessageType type, Question question, Player player){
         this.type = type;
         this.question = question;
@@ -55,6 +71,12 @@ public class ResponseMessage {
         this.type = type;
         this.error = error;
         this.player = player;
+    }
+
+    // game over >  list of players ordered by score
+    public ResponseMessage(MessageType type, List<Player> players){
+        this.type = type;
+        this.scoreBoard = players;
     }
 
 

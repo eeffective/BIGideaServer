@@ -21,7 +21,7 @@ public class WSServer extends WebSocketServer {
     private Gson gson;
     private ObjectMapper objMapper;
     private WSLogic logic;
-    private List<Game> games;
+    private List<IGame> games;
 
     private WSServer() {
         super(new InetSocketAddress(8081));
@@ -105,17 +105,15 @@ public class WSServer extends WebSocketServer {
                 case START_GAME_REQUEST:
                     lobby = LobbyManager.get(in.lobbyName);
                     Settings settings = new Settings(in.category, in.questions, in.seconds, in.difficulty);
-                    Game game = new Game(lobby, settings);
+                    IGame game = new Game(lobby, settings);
                     games.add(game);
-                    q = game.getQuestion(in.questionIndex);
-                    if (q != null) {
-                        out = new ResponseMessage(MessageType.START_GAME_SUCCESS, q);
+                    if (game.questionLeft()) {
+                        out = new ResponseMessage(MessageType.START_GAME_SUCCESS, game.getNextQuestion(), game.getCurrentQuestionIndex());
+                        System.out.println("first question sent");
                     } else {
                         out = new ResponseMessage(MessageType.ERROR, "NO QUESTIONS AVAILABLE");
                     }
                     sendToLobby(lobby, out);
-                    break;
-                case GET_QUESTION_REQUEST:
                     break;
                 case CREATE_PLAYER_REQUEST:
                     player = logic.createPlayer(in.playerName);
@@ -124,14 +122,16 @@ public class WSServer extends WebSocketServer {
                     webSocket.send(gson.toJson(out));
                     break;
                 case NEXT_QUESTION_REQUEST:
+                    System.out.println("next question request");
                     lobby = LobbyManager.get(in.lobbyName);
                     game = getGameByLobby(in.lobbyName);
-                    if (game.allAnswered()){
-                        q = game.getQuestion(in.questionIndex);
-                        if (q != null){
-                            out = new ResponseMessage(MessageType.NEXT_QUESTION_SUCCESS, q);
+                    if (game.allAnswered()) {
+                        if (!game.questionLeft()) {
+                            List<Player> players = lobby.getPlayers().stream().sorted(Comparator.comparingInt(Player::getScore)).collect(Collectors.toList());
+                            out = new ResponseMessage(MessageType.GAME_OVER, players);
+                            System.out.println(out.scoreBoard);
                         } else {
-                            out = new ResponseMessage(MessageType.ERROR, "No questions left.");
+                            out = new ResponseMessage(MessageType.NEXT_QUESTION_SUCCESS, game.getNextQuestion(), game.getCurrentQuestionIndex());
                         }
                         sendToLobby(lobby, out);
                     }
@@ -139,15 +139,15 @@ public class WSServer extends WebSocketServer {
                 case CHECK_ANSWER_REQUEST:
                     System.out.println("answer request called");
                     player = getPlayer(in.playerName);
+                    player.setCurrentAnswer(in.answer);
                     game = getGameByLobby(in.lobbyName);
-                    if (game.correctAnswer(in.answer, in.questionIndex)) {
-                        System.out.println(player.getScore());
+                    if (game.answerCorrect(player.getCurrentAnswer(), in.questionIndex)) {
                         player.increaseScore();
                         out = new ResponseMessage(MessageType.ANSWER_CORRECT, player);
-                    }
-                    else {
+                    } else {
                         out = new ResponseMessage(MessageType.ANSWER_INCORRECT, player);
                     }
+
                     webSocket.send(gson.toJson(out));
                     break;
                 default:
@@ -181,7 +181,7 @@ public class WSServer extends WebSocketServer {
         }
     }
 
-    public Game getGameByLobby(String lobbyName) {
+    public IGame getGameByLobby(String lobbyName) {
         return games.stream().filter(g -> g.getLobby().getName().equals(lobbyName)).findFirst().get();
     }
 

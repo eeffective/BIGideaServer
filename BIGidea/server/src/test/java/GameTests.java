@@ -36,16 +36,14 @@ public class GameTests {
     public void Get_First_Question() {
         Question expectedQuestion = questions.get(0);
 
-        assertEquals(expectedQuestion, game.getQuestion(0));
+        assertEquals(expectedQuestion, game.getNextQuestion());
     }
 
     @Test
     public void John_Has_Correct_Answer() {
         Question q = questions.get(1);
         john.setCurrentAnswer(q.getCorrectAnswer().getContent());
-
-        assertTrue(game.correctAnswer(john.getCurrentAnswer(), 1));
-
+        assertTrue(game.answerCorrect(john.getCurrentAnswer(), questions.indexOf(q) + 1));
     }
 
     @Test
@@ -61,7 +59,7 @@ public class GameTests {
         john.setCurrentAnswer("Cheese");
         jane.setCurrentAnswer("Tomato");
 
-        game.getQuestion(1);
+        game.getNextQuestion();
 
         assertFalse(game.allAnswered());
     }
