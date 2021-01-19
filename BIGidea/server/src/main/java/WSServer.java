@@ -244,16 +244,3 @@ public class WSServer extends WebSocketServer {
 
 
 }
-
-// foreach lobby in manager
-// foreach
-
-// when lobby created > lobby screen with player got shown
-// when lobby get joined > the same happens + everyone in lobby gets message
-// lobbyPlayers gets updated @ players already in lobby
-
-// method to get every webSocket player in lobby
-// foreach player in lobby
-// foreach session in players map
-// if player.getUsername.equals(session.getValue().getUsername)
-// listSessions.add(session)

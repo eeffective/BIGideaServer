@@ -1,0 +1,51 @@
+POST http://localhost:7070/players
+Content-Type: application/json
+Accept: : application/json
+
+{
+  "username": "ewa"
+}
+
+###
+
+POST http://localhost:7070/players
+Content-Type: application/json
+Accept: : application/json
+
+{
+  "username": "wew"
+}
+
+###
+
+POST http://localhost:7070/players
+Content-Type: application/json
+Accept: : application/json
+
+{
+  "username": "wew"
+}
+
+###
+
+POST http://localhost:7070/players
+Content-Type: application/json
+{:
+  "username": "Kees de koning",
+  "score": 50
+}:
+
+<> 2021-01-17T204131.400.html
+
+###
+
+POST http://localhost:8080
+
+###
+
+POST http://localhost:8080
+
+<> 2021-01-16T183316.400.json
+
+###
+

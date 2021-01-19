@@ -4,24 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/model/IGame.java" afterDir="false" />
+    <list default="true" id="98b5ec85-8d35-440b-8e27-c6ad87c9c84f" name="Default Changelist" comment="//">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/controller/ScoreboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/entity/Scoreboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/repository/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/repository/ScoreboardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/api/service/ScoreboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/example/api/ApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/enums/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/enums/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/managers/GameManagers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/wsmodel/ResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/wsmodel/ResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/enums/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/managers/GameManagers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/wsmodel/ResponseMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/WSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/WSServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/websocket/WSLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/websocket/WSLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/test/java/GameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/test/java/GameTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/WSServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/websocket/WSLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/test-classes/GameTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/GameTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +45,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -82,24 +91,124 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTests.John_Has_Correct_Answer">
-    <configuration name="WSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="key" />
+                <option name="path" value="/players" />
+                <option name="value" value="first-value" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:7070/players" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value=": application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;ewa&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:7070/players" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value=": application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;wew&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:7070/players" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="{" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;username&quot;" />
+                <option name="value" value="&quot;Kees de koning&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="  &quot;score&quot;" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.BIGidea">
+    <configuration name="WSServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WSServer" />
       <module name="server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="BIGidea" type="CompoundRunConfigurationType">
+      <toRun name="WSServer" type="Application" />
+      <toRun name="ApiApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="WSServer" type="Application" />
+      <toRun name="ApiApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="GameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="server" />
@@ -120,21 +229,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="server" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoundTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoundTests.Question_Get_Generated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="server" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoundTests" />
-      <option name="METHOD_NAME" value="Question_Get_Generated" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="api.ApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,13 +243,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WSServer" />
+      <item itemvalue="Compound.BIGidea" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="JUnit.GameTests" />
+      <item itemvalue="JUnit.GameTests.John_Has_Correct_Answer" />
+      <item itemvalue="Spring Boot.MainApplication" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
         <item itemvalue="JUnit.GameTests.John_Has_Correct_Answer" />
-        <item itemvalue="Application.WSServer" />
         <item itemvalue="JUnit.GameTests" />
-        <item itemvalue="JUnit.RoundTests" />
-        <item itemvalue="JUnit.RoundTests.Question_Get_Generated" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +306,12 @@
       <workItem from="1610450840292" duration="3290000" />
       <workItem from="1610458796608" duration="6231000" />
       <workItem from="1610534978478" duration="7721000" />
-      <workItem from="1610657882617" duration="5672000" />
+      <workItem from="1610657882617" duration="6457000" />
+      <workItem from="1610800006144" duration="11894000" />
+      <workItem from="1610839266092" duration="2983000" />
+      <workItem from="1610897502558" duration="8743000" />
+      <workItem from="1610982386604" duration="1175000" />
+      <workItem from="1611060900104" duration="3275000" />
     </task>
     <servers />
   </component>
@@ -214,6 +325,17 @@
     </ignored-roots>
     <MESSAGE value="//" />
     <option name="LAST_COMMIT_MESSAGE" value="//" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/api/controller/PlayerController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BIGidea$LobbyTests.ic" NAME="LobbyTests Coverage Results" MODIFIED="1609859155508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
